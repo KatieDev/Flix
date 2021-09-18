@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		297AA8B426F58AFA00C7ADFF /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297AA8B326F58AFA00C7ADFF /* MoviesViewController.swift */; };
+		297AA8B626F5965700C7ADFF /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297AA8B526F5965700C7ADFF /* MovieCell.swift */; };
 		29C0636726F2CE4800DAB5B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0636626F2CE4800DAB5B8 /* AppDelegate.swift */; };
 		29C0636926F2CE4800DAB5B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0636826F2CE4800DAB5B8 /* SceneDelegate.swift */; };
-		29C0636B26F2CE4800DAB5B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0636A26F2CE4800DAB5B8 /* ViewController.swift */; };
 		29C0636E26F2CE4800DAB5B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C0636C26F2CE4800DAB5B8 /* Main.storyboard */; };
 		29C0637026F2CE4C00DAB5B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C0636F26F2CE4C00DAB5B8 /* Assets.xcassets */; };
 		29C0637326F2CE4C00DAB5B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C0637126F2CE4C00DAB5B8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		297AA8B326F58AFA00C7ADFF /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		297AA8B526F5965700C7ADFF /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		29C0636326F2CE4800DAB5B8 /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C0636626F2CE4800DAB5B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29C0636826F2CE4800DAB5B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		29C0636A26F2CE4800DAB5B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		29C0636D26F2CE4800DAB5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29C0636F26F2CE4C00DAB5B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29C0637226F2CE4C00DAB5B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,13 +58,14 @@
 		29C0636526F2CE4800DAB5B8 /* Flix */ = {
 			isa = PBXGroup;
 			children = (
+				297AA8B526F5965700C7ADFF /* MovieCell.swift */,
 				29C0636626F2CE4800DAB5B8 /* AppDelegate.swift */,
 				29C0636826F2CE4800DAB5B8 /* SceneDelegate.swift */,
-				29C0636A26F2CE4800DAB5B8 /* ViewController.swift */,
 				29C0636C26F2CE4800DAB5B8 /* Main.storyboard */,
 				29C0636F26F2CE4C00DAB5B8 /* Assets.xcassets */,
 				29C0637126F2CE4C00DAB5B8 /* LaunchScreen.storyboard */,
 				29C0637426F2CE4C00DAB5B8 /* Info.plist */,
+				297AA8B326F58AFA00C7ADFF /* MoviesViewController.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29C0636B26F2CE4800DAB5B8 /* ViewController.swift in Sources */,
 				29C0636726F2CE4800DAB5B8 /* AppDelegate.swift in Sources */,
 				29C0636926F2CE4800DAB5B8 /* SceneDelegate.swift in Sources */,
+				297AA8B626F5965700C7ADFF /* MovieCell.swift in Sources */,
+				297AA8B426F58AFA00C7ADFF /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
