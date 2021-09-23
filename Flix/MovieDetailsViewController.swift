@@ -24,6 +24,7 @@ class MovieDetailsViewController: UIViewController {
         titleLabel.sizeToFit()
         synopsisLabel.text = movie["overview"] as? String
         synopsisLabel.sizeToFit()
+        print(movie["id"])
         
         let baseUrl = "https://image.tmdb.org/t/p/w185"
         let posterPath = movie["poster_path"] as! String
